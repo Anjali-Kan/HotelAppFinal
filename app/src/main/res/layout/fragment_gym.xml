@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The gym has several facilities which can help you stay fit!"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"/>
+</android.support.constraint.ConstraintLayout>

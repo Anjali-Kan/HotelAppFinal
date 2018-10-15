@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_dine"
+            android:icon="@drawable/ic_dine_and_wine"
+            android:title="Dine And Wine" />
+        <item android:id="@+id/nav_gym"
+            android:icon="@drawable/ic_gym"
+            android:title="Gym" />
+        <item android:id="@+id/nav_spa"
+            android:icon="@drawable/ic_spa"
+            android:title="Spa" />
+        <item android:id="@+id/nav_games"
+            android:icon="@drawable/ic_games"
+            android:title="Games" />
+    </group>
+</menu>

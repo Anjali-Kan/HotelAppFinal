@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_ground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/american_breakfast"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/american_breakfast" />
+
+            <ImageButton
+                android:id="@+id/american_lunch"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/american_lunch"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/american_dinner"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/american_dinner"/>
+
+            <ImageButton
+                android:id="@+id/british_breakfast"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/british_breakfast"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/british_lunch"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/british_lunch"/>
+
+            <ImageButton
+                android:id="@+id/british_dinner"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/british_dinner"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/japanese_breakfast"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/japanese_breakfast"/>
+
+            <ImageButton
+                android:id="@+id/japanese_lunch"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/japanese_lunch"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/japanese_dinner"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/japanese_dinner"/>
+
+            <ImageButton
+                android:id="@+id/extras"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/extras"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

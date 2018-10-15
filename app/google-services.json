@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "585670623851",
+    "firebase_url": "https://hotelappfinal-4d628.firebaseio.com",
+    "project_id": "hotelappfinal-4d628",
+    "storage_bucket": "hotelappfinal-4d628.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585670623851:android:cd084d2bc5244b3e",
+        "android_client_info": {
+          "package_name": "com.example.yashwantramteke.hotelappfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585670623851-hph5b9hhh4tr4efojad1l7es8nbmhft3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yashwantramteke.hotelappfinal",
+            "certificate_hash": "92b19a565136a6e092e4878215550ebf0bc67ef7"
+          }
+        },
+        {
+          "client_id": "585670623851-2h8u1q5sirvk7116a3lohh5p56pfgkdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTplbmam-aoUWk5Lqu3dG2LdKS9ljqLZs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585670623851-2h8u1q5sirvk7116a3lohh5p56pfgkdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
